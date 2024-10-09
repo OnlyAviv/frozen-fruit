@@ -1,0 +1,24 @@
+{
+  "name": "frozen-fruit",
+  "version": "0.0.1",
+  "description": "Don't get userland get to you... use frozen-fruit!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "types.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redyetidev/frozen-fruit.git"
+  },
+  "keywords": [
+    "ice",
+    "primordials"
+  ],
+  "author": "RedYetiDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redyetidev/frozen-fruit/issues"
+  },
+  "homepage": "https://github.com/redyetidev/frozen-fruit#readme"
+}
