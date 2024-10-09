@@ -46,7 +46,7 @@ The module provides an object where each primordial is organized as follows:
 You can also use the `GetPrimordial()` function directly to copy properties from a specific source:
 
 ```javascript
-const { GetPrimordial } = require('./frozen-fruit');
+const { GetPrimordial } = require('frozen-fruit');
 
 // Extract properties from a custom object
 const myPrimordials = GetPrimordial(SomeGlobalObject);
