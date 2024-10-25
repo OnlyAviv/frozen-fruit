@@ -60,7 +60,7 @@ function getPrimordial(src, name = src.name, dest = {}) {
         return dest;
     }
 
-    const copyProperties = (source, prefix, isPrototype = true) => {
+    const copyProperties = (source, prefix, isPrototype = false) => {
         if (isPrototype) prefix += 'Prototype';
         
         for (const key of Reflect.ownKeys(source)) {
@@ -90,7 +90,7 @@ function getPrimordial(src, name = src.name, dest = {}) {
     return dest;
 }
 
-const primordials = { GetPrimordial: getPrimordial };
+const primordials = { GetPrimordial: getPrimordial, globalThis };
 
 // Collect primordials from specified global properties
 for (const name of toBePrimordialized) {

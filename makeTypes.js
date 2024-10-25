@@ -17,7 +17,7 @@ function getNewKey(key) {
         : `${key.charAt(0).toUpperCase()}${key.slice(1)}`;
 }
 
-function copyProperties(source, prefix, dest, isPrototype = true) {
+function copyProperties(source, prefix, dest, isPrototype = false) {
     let originalPrefix = prefix;
     if (isPrototype) prefix += 'Prototype';
     if (isPrototype) originalPrefix += '.prototype';

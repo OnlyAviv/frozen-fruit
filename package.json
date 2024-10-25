@@ -1,11 +1,8 @@
 {
   "name": "frozen-fruit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Don't get userland get to you... use frozen-fruit!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "types": "types.d.ts",
   "repository": {
     "type": "git",
