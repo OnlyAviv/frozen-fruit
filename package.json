@@ -6,7 +6,7 @@
   "types": "types.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redyetidev/frozen-fruit.git"
+    "url": "git+https://github.com/onlyaviv/frozen-fruit.git"
   },
   "keywords": [
     "ice",
@@ -15,7 +15,7 @@
   "author": "RedYetiDev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/redyetidev/frozen-fruit/issues"
+    "url": "https://github.com/onlyaviv/frozen-fruit/issues"
   },
-  "homepage": "https://github.com/redyetidev/frozen-fruit#readme"
+  "homepage": "https://github.com/onlyaviv/frozen-fruit#readme"
 }
